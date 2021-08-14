@@ -203,14 +203,12 @@ p {
   border-color: var(--accent-text-color);
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button:hover,
 .button:focus {
   background-color: var(--background-button);
   color: var(--accent-white-color);
-  border-color: var(--accent-text-color);
 
   cursor: pointer;
 }
@@ -294,8 +292,6 @@ p {
 .our-works-title {
   position: absolute;
   bottom: 0;
-  left: 50%;
-  transform: translate(-50%, 0);
   width: 100%;
   padding: 27px 0 27px 0;
   background: rgba(47, 48, 58, 0.8);
